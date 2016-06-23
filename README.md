@@ -1,6 +1,6 @@
 # [Angular Hack Day 2016 Summer](https://angularjs-jp.doorkeeper.jp/events/46335) リポジトリー
 
-これはあなたのチーム用のAngular Hack Day 2016 Summerリポジトリーです。スターターキットとして [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) を既に登録しています。
+これはあなたのチーム用のAngular Hack Day 2016 Summerリポジトリーです。スターターキットとして [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) + [Webpack](https://webpack.github.io/)をアレンジしたものを既に登録しています。
 
 ### Step 1) リポジトリーの取得
 
