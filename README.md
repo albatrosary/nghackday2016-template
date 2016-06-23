@@ -20,7 +20,6 @@
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
-<<<<<<< HEAD
 ```sh
 # step 2-1) ビルドを行います。
 npm run build
@@ -31,13 +30,9 @@ git add dist && git commit -m "deploy build"
 # step 2-3) gh-pageブランチにpushします。
 npm run deploy
 ```
-=======
-* `npm run build`
-
-* `npm run deploy`
 
 * `https://xxxxxxx.github.io/[チームリポジトリー名]`
->>>>>>> 50b740fe27ae3d8b28cbc0cf744df98f78cf13de
+
 
 ### Step 3) 審査
 
