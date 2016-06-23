@@ -39,7 +39,7 @@ webpackJsonp([0],{
 	    AppComponent = __decorate([
 	        core_1.Component({
 	            selector: 'my-app',
-	            template: '<h1>My First Angular 2 App</h1>'
+	            template: "\n  <h1>My First Angular 2 App</h1>\n  <img src=\"images/i320.jpg\" alt=\"\">\n  "
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], AppComponent);
@@ -51,4 +51,4 @@ webpackJsonp([0],{
 /***/ }
 
 });
-//# sourceMappingURL=app.de9a2a296641ac8a0173.js.map
+//# sourceMappingURL=app.3761149dc7497960fdd4.js.map
