@@ -8,9 +8,9 @@
 
 * Install the latest [Node / NPM](https://nodejs.org).
 
-* `git clone git@github.com:ngjapan-attack/nghackday2016-[チームリポジトリー名].git`
+* `git clone git@github.com:ngjapan-attack/nghackday2016-template.git`
 
-* `cd nghackday2016-[チームリポジトリー名]`
+* `cd nghackday2016-template`
 
 * `npm install`
 
@@ -26,7 +26,7 @@ github pagesにデプロイを行ってください。もちろん、これは�
 
 * `npm run deploy` github pagesにpushします
 
-* `https://xxxxxxx.github.io/[チームリポジトリー名]`
+* `https://ngjapan-attack.github.io/nghackday2016-template/`
 
 
 ### Step 3) 審査

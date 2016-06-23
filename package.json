@@ -1,5 +1,5 @@
 {
-  "name": "nghackday2016-template",
+  "name": "nghackday2016-andromeda",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
