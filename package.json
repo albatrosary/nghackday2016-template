@@ -6,7 +6,7 @@
     "postinstall": "typings install",
     "typings": "typings",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "deploy": "git push origin :gh-pages && git add dist && git commit -m \"deploy build\" && git subtree push --prefix dist/ origin gh-pages"
+    "deploy": "git push origin :gh-pages || git add dist && git commit -m \"deploy build\" || git subtree push --prefix dist/ origin gh-pages"
   },
   "license": "MIT",
   "dependencies": {
