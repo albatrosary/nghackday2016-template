@@ -2,7 +2,7 @@
 
 これはあなたのチーム用のAngular Hack Day 2016 Summerリポジトリーです。スターターキットとして [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) を既に登録しています。
 
-### Step 1) Get Your Local Environment setup
+### Step 1) リポジトリーの取得
 
 このリポジトリーをクローンしてハッカソンを開始してください。チームで別のスターターキットを利用したい場合は、もちろん変更してもまったく問題ありません。以下このリポジトリーの基本的な使い方を説明します。
 
@@ -21,8 +21,14 @@
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
+* `npm install jspm@beta -g`
+
+* `jspm bundle app/main build.js`
+
 * `git chackout -b gh-pages`
+
 * `git push origin gh-pages`
+
 * `https://xxxxxxx.github.io/[チームリポジトリー名]`
 
 ### Step 3) 審査
