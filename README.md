@@ -24,7 +24,11 @@ github pagesにデプロイを行ってください。もちろん、これは�
 ```sh
 # step 2-1) ビルドを行います。
 npm run build
-# step 2-2) gh-pageブランチにpushします。
+
+# step 2-2) ビルド内容をcommitします。
+git add dist && git commit -m "deploy build"
+
+# step 2-3) gh-pageブランチにpushします。
 npm run deploy
 ```
 
