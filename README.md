@@ -21,15 +21,16 @@
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
-* `npm install jspm@beta -g`
+```sh
+# step 2-1) ビルドを行います。
+npm run build
 
-* `jspm bundle app/main build.js`
+# step 2-2) ビルド内容をcommitします。
+git add dist && git commit -m "deploy build"
 
-* `git chackout -b gh-pages`
-
-* `git push origin gh-pages`
-
-* `https://xxxxxxx.github.io/[チームリポジトリー名]`
+# step 2-3) gh-pageブランチにpushします。
+npm run deploy
+```
 
 ### Step 3) 審査
 

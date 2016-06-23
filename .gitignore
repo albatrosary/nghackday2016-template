@@ -1,4 +1,7 @@
 node_modules
-typings
-*.js.map
-*.log
+npm-debug.log
+.DS_Store
+.tmp/*
+.vscode
+*.swp
+dist
