@@ -2,12 +2,11 @@
   "name": "angular2-quickstart",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server",
+    "start": "webpack-dev-server --inline --progress --port 8080",
     "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "typings": "typings",
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "gh-page": "git subtree push --prefix dist/ origin gh-pages"
   },
   "license": "ISC",
   "dependencies": {
@@ -29,11 +28,20 @@
     "bootstrap": "^3.3.6"
   },
   "devDependencies": {
+    "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.21.0",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typings": "^1.0.4",
     "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.14.0"
   }
 }
