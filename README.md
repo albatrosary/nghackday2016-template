@@ -16,18 +16,13 @@
 
 * `npm start` は簡易サーバが起動し、TypeScriptのビルドが実行されます。
 
-
 ### Step 2) アプリケーションのデプロイ
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
-* `npm install jspm@beta -g`
+* `npm run build`
 
-* `jspm bundle app/main build.js`
-
-* `git chackout -b gh-pages`
-
-* `git push origin gh-pages`
+* `npm run deploy`
 
 * `https://xxxxxxx.github.io/[チームリポジトリー名]`
 
