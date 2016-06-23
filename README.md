@@ -26,7 +26,7 @@ github pagesにデプロイを行ってください。もちろん、これは�
 
 * `npm run deploy` github pagesにpushします
 
-* `https://ngjapan-attack.github.io/nghackday2016-template/`
+* https://ngjapan-attack.github.io/nghackday2016-template/
 
 
 ### Step 3) 審査
