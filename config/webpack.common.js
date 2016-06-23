@@ -3,8 +3,12 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var helpers = require('./helpers');
 
-module.exports = {
+const METADATA = {
   baseUrl: '/',
+};
+
+module.exports = {
+  metadata: METADATA,
   entry: {
     'polyfills': './src/polyfills.ts',
     'vendor': './src/vendor.ts',
@@ -23,7 +27,8 @@ module.exports = {
       },
       {
         test: /\.html$/,
-        loader: 'html'
+        loader: 'raw-loader',
+        exclude: [helpers.root('src/index.html')]
       },
       {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
@@ -48,7 +53,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: 'src/index.html'
+      template: 'src/index.html',
+      chunksSortMode: 'dependency'
     })
   ]
 };

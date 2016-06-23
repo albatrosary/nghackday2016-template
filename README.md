@@ -21,6 +21,13 @@
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
+```sh
+# step 2-1) ビルドを行います。
+npm run build
+# step 2-2) gh-pageブランチにpushします。
+npm run deploy
+```
+
 ### Step 3) 審査
 
 みんなでgithub pagesを見ながら優勝者を選定します。ですので、ハックのゴールはgithub pagesに登録して無事何かしらアプリケーションが実行されることです。
