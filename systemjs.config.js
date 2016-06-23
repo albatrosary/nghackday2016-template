@@ -1,3 +1,30 @@
+// SystemJS.config({
+//   browserConfig: {
+//     "baseURL": "/",
+//     "paths": {
+//       "angular2-quickstart/": "./"
+//     }
+//   },
+//   nodeConfig: {
+//     "paths": {
+//       "angular2-quickstart/": ""
+//     }
+//   },
+//   packages: {
+//     "angular2-quickstart": {
+//       "main": "app/main.js",
+//       "format": "esm"
+//     }
+//   }
+// });
+
+// SystemJS.config({
+//   packageConfigPaths: [],
+//   map: {},
+//   packages: {}
+// });
+
+
 /**
  * System configuration for Angular 2 samples
  * Adjust as necessary for your application needs.
