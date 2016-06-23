@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 var helpers = require('./helpers');
 
 const METADATA = {
@@ -31,8 +32,12 @@ module.exports = {
         exclude: [helpers.root('src/index.html')]
       },
       {
+        test: 'favicon.ico',
+        loader: 'file?name=[name].[hash].[ext]'
+      },
+      {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-        loader: 'file?name=assets/[name].[hash].[ext]'
+        loader: 'file?name=images/[name].[hash].[ext]'
       },
       {
         test: /\.css$/,
@@ -55,6 +60,16 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       chunksSortMode: 'dependency'
-    })
+    }),
+
+    new CopyWebpackPlugin([{
+      from: 'src/images',
+      to: 'images'
+    }]),
+
+    new CopyWebpackPlugin([{
+      from: 'src/favicon.ico',
+      to: 'favicon.ico'
+    }])
   ]
 };
