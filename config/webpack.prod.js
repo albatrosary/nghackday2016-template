@@ -7,7 +7,7 @@ var helpers = require('./helpers');
 const ENV = process.env.NODE_ENV = process.env.ENV = 'production';
 
 const METADATA = {
-  baseUrl: '/nghackday2016-andromeda/',
+  baseUrl: '/nghackday2016-template/',
 };
 
 module.exports = webpackMerge(commonConfig, {
