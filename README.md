@@ -21,6 +21,10 @@
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
+* `git chackout -b gh-pages`
+* `git push origin gh-pages`
+* `https://xxxxxxx.github.io/[チームリポジトリー名]`
+
 ### Step 3) 審査
 
 みんなでgithub pagesを見ながら優勝者を選定します。ですので、ハックのゴールはgithub pagesに登録して無事何かしらアプリケーションが実行されることです。
