@@ -5,7 +5,7 @@
     "start": "webpack-dev-server --inline --progress --port 8080",
     "postinstall": "typings install",
     "typings": "typings",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail && git add dist && git commit -m \"deploy build\"",
     "deploy": "git push origin :gh-pages && git subtree push --prefix dist/ origin gh-pages"
   },
   "license": "ISC",
