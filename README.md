@@ -1,49 +1,28 @@
-# This is your [AngularAttack](https://www.angularattack.com) 2016 Repo
+# [Angular Hack Day 2016 Summer](https://angularjs-jp.doorkeeper.jp/events/46335) リポジトリー
 
-This repo is the start of your AngularAttack 2016 entry. It contains the simple [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) files.
-
-**DO NOT MAKE ANY CODE CHECKINS TO THIS REPOSITORY BEFORE THE COMPETITION OFFICIALLY BEGINS.**
-
-**DOING SO COULD DISQUALIFY YOU.**
-
-
-However, before the competition starts, there are some things we encourage you to do to get prepared for the competition.
-
+これはあなたのチーム用のAngular Hack Day 2016 Summerリポジトリーです。スターターキットとして [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) を既に登録しています。
 
 ### Step 1) Get Your Local Environment setup
 
-Clone this repo locally, and make sure all your team members have access to it.
+このリポジトリーをクローンしてハッカソンを開始してください。チームで別のスターターキットを利用したい場合は、もちろん変更してもまったく問題ありません。以下このリポジトリーの基本的な使い方を説明します。
 
 * Install the latest [Node / NPM](https://nodejs.org).
 
-* `git clone git@github.com:rumblex/angularattack2016-colorschemr.git`
+* `git clone git@github.com:xxxxxxx/[チームリポジトリー名].git`
 
-* `cd angularattack2016-colorschemr`
+* `cd [チームリポジトリー名]`
 
 * `npm install`
 
-* `npm start` will start the server locally to test that everything is running correctly
+* `npm start` は簡易サーバが起動し、TypeScriptのビルドが実行されます。
 
 
-### Step 2) Deploy Your App
+### Step 2) アプリケーションのデプロイ
 
-While you can't make any checkins before the comp, what you **can** do right now is deploy this sample app to [Surge](https://surge.sh) (our competition hosting provider).
+github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
-* `npm install -g surge`
+### Step 3) 審査
 
-* `surge .`
-
-Note: please do not remove the `CNAME` file, as that tells it where to deploy to.
-
-If you receive an error message `"You do not have permission to publish to colorschemr.2016.angularattack.io"`, it might mean another team member has already deployed your project to Surge. Ask them to run the next step to give you access.
-
-### Step 3) Add Your Team Members to Surge
-
-* `surge . --add 93.gaurav@gmail.com,varun2902@gmail.com`
-
-
-### Step 4) Wait til competition starts
-
-It begins at exactly [May 14 at 00:00 UTC](https://www.wolframalpha.com/input/?i=May+14,+2016+0:00+UTC). Once the competition starts,   you can write over this project.
+みんなでgithub pagesを見ながら優勝者を選定します。ですので、ハックのゴールはgithub pagesに登録して無事何かしらアプリケーションが実行されることです。
 
 
