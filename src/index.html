@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="<%= webpackConfig.metadata.title %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>nghaskday2016</title>
+    <title><%= webpackConfig.metadata.title %></title>
 
     <base href="<%= webpackConfig.metadata.baseUrl %>">
 
@@ -17,13 +17,13 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Web Starter Kit">
+    <meta name="application-name" content="<%= webpackConfig.metadata.title %>">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <meta name="apple-mobile-web-app-title" content="<%= webpackConfig.metadata.title %>">
     <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
@@ -52,9 +52,11 @@
 
   </head>
   <body>
+
+    <!-- Display the Angular2 Application -->
     <my-app>Loading...</my-app>
 
-    <script src="scripts/main.js"></script>
     <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
