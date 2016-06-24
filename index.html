@@ -6,8 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./favicon.ico">
-  <link href="/nghackday2016-template/./app.36f95fb57d2fe382999a.css" rel="stylesheet"></head>
+    <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./service-worker.js')
+  .then((registration) => {
+    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+  }).catch((err) => {
+    console.log('ServiceWorker registration failed: ', err);
+  });
+}
+    </script>
+  <link href="/nghackday2016-template/./app.91edd2ba00b8d08b87f6.css" rel="stylesheet"></head>
   <body>
     <my-app>Loading...</my-app>
-  <script type="text/javascript" src="/nghackday2016-template/./polyfills.36f95fb57d2fe382999a.js"></script><script type="text/javascript" src="/nghackday2016-template/./vendor.36f95fb57d2fe382999a.js"></script><script type="text/javascript" src="/nghackday2016-template/./app.36f95fb57d2fe382999a.js"></script></body>
+  <script type="text/javascript" src="/nghackday2016-template/./polyfills.91edd2ba00b8d08b87f6.js"></script><script type="text/javascript" src="/nghackday2016-template/./vendor.91edd2ba00b8d08b87f6.js"></script><script type="text/javascript" src="/nghackday2016-template/./app.91edd2ba00b8d08b87f6.js"></script></body>
 </html>
