@@ -6,6 +6,7 @@ var helpers = require('./helpers');
 
 const METADATA = {
   baseUrl: '/',
+  title: 'nghackday2016'
 };
 
 module.exports = {
@@ -25,6 +26,10 @@ module.exports = {
       {
         test: /\.ts$/,
         loader: 'ts'
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
       },
       {
         test: /\.html$/,
@@ -71,6 +76,11 @@ module.exports = {
     new CopyWebpackPlugin([{
       from: 'src/service-worker.js',
       to: 'service-worker.js'
+    }]),
+
+    new CopyWebpackPlugin([{
+      from: 'src/manifest.json',
+      to: 'manifest.json'
     }])
   ]
 };
