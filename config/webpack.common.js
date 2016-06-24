@@ -5,7 +5,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 var helpers = require('./helpers');
 
 const METADATA = {
-  baseUrl: '/',
+  baseUrl: '/nghackday2016-template/',
   title: 'nghackday2016'
 };
 
@@ -64,23 +64,8 @@ module.exports = {
     }),
 
     new CopyWebpackPlugin([{
-      from: 'src/images',
-      to: 'images'
-    }]),
-
-    new CopyWebpackPlugin([{
-      from: 'src/favicon.ico',
-      to: 'favicon.ico'
-    }]),
-
-    new CopyWebpackPlugin([{
-      from: 'src/service-worker.js',
-      to: 'service-worker.js'
-    }]),
-
-    new CopyWebpackPlugin([{
-      from: 'src/manifest.json',
-      to: 'manifest.json'
+      from: 'src/assets/',
+      to: './'
     }])
   ]
 };
