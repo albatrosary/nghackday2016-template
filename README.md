@@ -1,10 +1,10 @@
-# [Angular Hack Day 2016 Summer](https://angularjs-jp.doorkeeper.jp/events/46335) リポジトリー
+# [Angular Hack Day 2016 Summer](https://angularjs-jp.doorkeeper.jp/events/46335) リポジトリ
 
-これはあなたのチーム用のAngular Hack Day 2016 Summerリポジトリーです。スターターキットとして [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) + [Webpack](https://webpack.github.io/)をアレンジしたものを既に登録しています。
+これはあなたのチーム用のAngular Hack Day 2016 Summerリポジトリです。スターターキットとして [Angular2 Starter](https://angular.io/docs/ts/latest/quickstart.html)と[Angular2 Webpack Starter](https://github.com/AngularClass/angular2-webpack-starter)をアレンジしたものを既に登録しています。
 
-### Step 1) リポジトリーの取得
+### Step 1) リポジトリの取得
 
-このリポジトリーをクローンしてハッカソンを開始してください。チームで別のスターターキットを利用したい場合は、もちろん変更してもまったく問題ありません。以下このリポジトリーの基本的な使い方を説明します。
+このリポジトリをクローンしてハッカソンを開始してください。チームで別のスターターキットを利用したい場合は、もちろん変更してもまったく問題ありません。以下このリポジトリの基本的な使い方を説明します。
 
 * Install the latest [Node / NPM](https://nodejs.org).
 
