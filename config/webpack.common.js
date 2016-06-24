@@ -32,10 +32,6 @@ module.exports = {
         exclude: [helpers.root('src/index.html')]
       },
       {
-        test: 'favicon.ico',
-        loader: 'file?name=[name].[hash].[ext]'
-      },
-      {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
         loader: 'file?name=images/[name].[hash].[ext]'
       },
@@ -70,6 +66,11 @@ module.exports = {
     new CopyWebpackPlugin([{
       from: 'src/favicon.ico',
       to: 'favicon.ico'
+    }]),
+
+    new CopyWebpackPlugin([{
+      from: 'src/service-worker.js',
+      to: 'service-worker.js'
     }])
   ]
 };
