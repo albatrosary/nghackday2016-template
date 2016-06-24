@@ -9,10 +9,6 @@ sed -e "s/-template/-$team/g" README.md > README.tmp
 rm -rf README.md
 mv README.tmp README.md
 
-sed -e "s/-template/-$team/g" config/webpack.prod.js > config/webpack.prod.tmp
-rm -rf config/webpack.prod.js
-mv config/webpack.prod.tmp config/webpack.prod.js
-
 rm -rf .git
 git init
 git add .
