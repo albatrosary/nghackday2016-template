@@ -20,7 +20,7 @@
 
 github pagesにデプロイを行ってください。もちろん、これは静的ページしか実行してくれませんので、JSONPを利用してAWSやAzureなど利用しても問題ありません。
 
-* `npm run deploy` はモジュールををビルド（distディレクトリに出力します）し、github pagesへpushします
+* `npm run deploy` はモジュールをビルド（distディレクトリに出力します）し、github pagesへpushします
 
 * https://ngjapan-attack.github.io/nghackday2016-template/
 
