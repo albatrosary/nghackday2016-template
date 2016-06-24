@@ -97,7 +97,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 /******/
-/******/ 			script.src = __webpack_require__.p + "" + chunkId + "." + "3761149dc7497960fdd4" + ".chunk.js";
+/******/ 			script.src = __webpack_require__.p + "" + chunkId + "." + "36f95fb57d2fe382999a" + ".chunk.js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};
@@ -109,7 +109,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "./";
+/******/ 	__webpack_require__.p = "/nghackday2016-template/./";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -40604,4 +40604,4 @@
 
 /***/ }
 /******/ ])));
-//# sourceMappingURL=polyfills.3761149dc7497960fdd4.js.map
+//# sourceMappingURL=polyfills.36f95fb57d2fe382999a.js.map
