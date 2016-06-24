@@ -5,7 +5,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 var helpers = require('./helpers');
 
 const METADATA = {
-  baseUrl: '/nghackday2016-template/',
+  baseUrl: '/',
   title: 'nghackday2016'
 };
 
