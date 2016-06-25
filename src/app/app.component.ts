@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
   selector: 'my-app',
   template: `
   <h1>My First Angular 2 App</h1>
-  <img src="images/i320.jpg" alt="">
+  <img src="images/ng-japan2-logo_full.png">
   `
 })
 
