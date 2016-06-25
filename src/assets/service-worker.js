@@ -31,7 +31,7 @@ self.addEventListener('fetch', (event) => {
 
             caches.open(CACHE_NAME)
               .then((cache) => {
-                if (event.request.url.indexOf('browser-sync') < 0) {
+                if (event.request.url.indexOf('sockjs-node') < 0) {
                   cache.put(event.request, responseToCache);
                 }
               });
